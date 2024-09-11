@@ -16,20 +16,8 @@ export const r2gSmokeTest = async function () {
   return true;
 };
 
-/*
 
- TODO: bad library design:
-
- module.exports = 'foo';
- export = 'foo';
-
- TODO: good library design:
-
- exports.x = 'foo'
- export const x = 'foo'
- export default = 'foo';
-
-*/
+require('./cli')
 
 
 
