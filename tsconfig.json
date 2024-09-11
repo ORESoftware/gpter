@@ -8,6 +8,7 @@
     "sourceMap": false,
     "skipLibCheck": true,
     "rootDir": "src",
+    "esModuleInterop": true,
     "declaration": true,
     "baseUrl": ".",
     "target": "es2022",
